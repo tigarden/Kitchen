@@ -27,7 +27,6 @@ public class ObjectsInteractionTask5 : MonoBehaviour
             if (shelf.ItemsCount > 3)
             {
                 shelf.Fall();
-                shelf.ItemSpawned -= OnItemSpawned;
             }
         }
     }
